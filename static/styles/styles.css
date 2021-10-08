@@ -162,8 +162,8 @@ h1{
     position: absolute;
     height: 100%;
     width: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
     transform-style: preserve-3d;
     transition: ease-in-out 600ms;
 }
