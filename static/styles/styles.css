@@ -165,7 +165,7 @@ h1{
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0);
-    visibility:visible;
+    /* visibility:visible; */
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: ease-in-out 600ms;
@@ -231,9 +231,14 @@ h1{
 
 .summary{
     color: #9D788A;
-    font-size: 15px;        
+    font-size: 18px;        
     overflow-y: auto;
+    font-weight: 300;
 }
+
+/* .summary-link{
+    
+} */
 /* ------------------------------------------------------------------ */
 /* b. Contact Styles
 /* ------------------------------------------------------------------ */
@@ -335,8 +340,14 @@ textarea{
 .process p{
     font-weight: 300;
     line-height: 30px;
+    font-size: 19px;
 }
 
+.emphasis{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
 /* ------------------------------------------------------------------ */
 /* b. Cert Styles
 /* ------------------------------------------------------------------ */
