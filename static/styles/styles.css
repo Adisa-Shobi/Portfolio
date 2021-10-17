@@ -165,12 +165,13 @@ h1{
     -webkit-perspective: 0;
     perspective: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);    
     backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);        
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     transition: ease-in-out 600ms;
+    -webkit-transition: ease-in-out 600ms;
 }
 
 .front {
