@@ -211,6 +211,7 @@ h1{
     padding: 15px;
     background: #59405c;
     transform: rotateY(-180deg);
+    -webkit-visibility: hidden;
     -webkit-transform: rotateY(-180deg);
     
 }
