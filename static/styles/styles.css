@@ -163,8 +163,10 @@ h1{
     height: 100%;
     width: 100%;
     -webkit-perspective: 0;
+    perspective: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);    
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);    
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: ease-in-out 600ms;
