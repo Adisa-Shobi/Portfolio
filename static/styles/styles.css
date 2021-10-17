@@ -169,6 +169,7 @@ h1{
     transform: translate3d(0,0,0);    
     backface-visibility: hidden;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transition: ease-in-out 600ms;
 }
 
@@ -198,10 +199,12 @@ h1{
 }
 .card:hover .front {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .card:nth-child(even):hover .front {
     transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
 }
 .back {
     padding: 15px;
@@ -211,12 +214,15 @@ h1{
 }
 .card:hover .back {
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
 }
 .card:nth-child(even) .back {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 .card:nth-child(even):hover .back {
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
 }
 
 .card{
