@@ -164,8 +164,7 @@ h1{
     width: 100%;
     -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    /* visibility:visible; */
+    -webkit-transform: translate3d(0,0,0);    
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: ease-in-out 600ms;
@@ -180,6 +179,7 @@ h1{
     font-weight: 600;
     color: #fff;
     overflow: hidden;
+    visibility: visible;
     font-family: Poppins, sans-serif;
 }
 .front:before {

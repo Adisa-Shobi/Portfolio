@@ -6,10 +6,10 @@ from wtforms.validators import DataRequired, Email
 from flask_bootstrap import Bootstrap
 import os
 
-MY_EMAIL = os.environ.get("EMAIL")
-MY_PASSWORD = os.environ.get("PASSWORD")
+MY_EMAIL = os.environ.get("EMAIL", "pythontest046@gmail.com")
+MY_PASSWORD = os.environ.get("PASSWORD", "l2+21ytT#M&hslb*")
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY", 'ojaagfgdfgg4664565346gsfghdjgkjkfhjfa6758sajnrln')
 Bootstrap(app)
 
 
